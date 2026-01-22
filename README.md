@@ -24,7 +24,6 @@ Repository ini berisi implementasi tugas-tugas mata kuliah Deep Learning & Big D
 ```bash
 # Clone repository
 git clone <repository-url>
-cd dl-tugas-2
 
 # Buat virtual environment
 python -m venv venv
@@ -50,7 +49,7 @@ jupyter notebook
 ## 📁 Struktur Proyek
 
 ```
-dl-tugas-2/
+.
 ├── notebooks/
 │   ├── pyspark_classification.ipynb    # Tugas 2: Wine Quality Classification
 │   ├── recommender_system.ipynb        # Tugas 3: Movie Recommender System
@@ -203,17 +202,6 @@ Credentials: neo4j / password123
 - **Total Flights**: 5,991 edges
 - **Top Hub**: ATL (Atlanta) dengan highest PageRank
 - **Connected Components**: 1 (fully connected network)
-
-## 📝 Submission Checklist
-
-- [x] Tugas 2: PySpark Classification (notebook + PDF)
-- [x] Tugas 3: Recommender System (notebook + PDF)
-- [x] Tugas 4: Graph Analysis (notebook + PDF)
-- [x] Dataset files dalam folder data/
-- [x] requirements.txt dengan semua dependencies
-- [x] README.md dengan dokumentasi lengkap
-- [ ] Test semua notebooks end-to-end
-- [ ] Export final PDF versions
 
 ## 🤝 Kontributor
 Muhammad Rizky Hajar - 24.55.2714
